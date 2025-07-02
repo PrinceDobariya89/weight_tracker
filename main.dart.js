@@ -89843,7 +89843,7 @@ $1(a){return new A.fa(A.b([],t.FX),new A.aN(Date.now(),0,!1),$.ai())},
 $S:525}
 A.L2.prototype={
 P(a){var s=null
-return new A.zf(B.FX,"Fit Tracker",A.ud(s,s,B.hP,s),!1,s)}}
+return new A.zf(B.FX,"Weight Tracker",A.ud(s,s,B.hP,s),!1,s)}}
 A.e1.prototype={
 k_(){return A.aj(["date",this.a.av0(),"weight",this.b],t.N,t.z)}}
 A.fa.prototype={
