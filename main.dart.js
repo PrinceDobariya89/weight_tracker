@@ -26097,8 +26097,7 @@ p.toString
 r=q.jh(t.CG.a(p))}else r=""
 return r},
 aEQ(a,b){var s,r,q,p=null,o=b.eI,n=o==null
-if(!n)B.h.aV(o,1)
-n=!n||n
+n=!n&&B.c.aV(o,1)===0||n
 b.aQ.toString
 if(b instanceof A.jo)s=b.dL
 else s=p
@@ -26148,8 +26147,7 @@ if(a===s-1)return b>=c[a-1]
 return b>=c[a-1]&&b<=c[a+1]},
 aOZ(a,b,c){return A.aAp(b,c,a.aQ.b,a.eI,a.b5,a.dL)},
 aAp(a,b,c,d,e,f){var s=d==null
-if(!s)B.h.aV(d,1)
-s=!s||s
+s=!s&&B.c.aV(d,1)===0||s
 switch(f.a){case 1:return s?A.aw2():A.xv()
 case 2:return c===a||a===b?A.aAg(f):A.aAs(f,e,a,b)
 case 3:return c===a||a===b?A.aAg(f):A.aAs(f,e,a,b)
@@ -90349,7 +90347,7 @@ if(r.length<=5)B.b.gab(r).toString
 p=A.hn("MM/dd",m)
 o=A.aI4("##0.000")
 n=A.b([A.aHo(B.hP,m,r,B.Ky,3,new A.ago(),new A.agp(),t.LR,t.CG)],t.kl)
-return new A.Ba(new A.IY(p,B.es,!0,!0,B.j1,B.fI,B.fK,B.K9,B.fJ,m,B.fE,B.ed,m,3,0,-45,B.bE,!1,!1,B.cF,B.hz,B.fj,B.nu,m,m,m,m,m,1,0,!0,B.fH,m,m,!0,B.og,m,m,m,m,B.fz,m,0,B.d9,B.fL,m,m,m),new A.Lh("{value} kg",o,l-1,s+1,!0,!0,B.AJ,B.fI,B.fK,B.Ka,B.fJ,m,B.fE,B.ed,m,3,0,0,B.bE,!1,!1,B.cF,B.hz,B.fj,B.jK,1,m,m,m,m,1,0,!0,B.fH,m,m,!0,B.og,m,m,m,m,B.fz,m,0,B.d9,B.fL,m,m,m),new A.afH(!0),new A.OP(!0,!0,!0,B.fo,B.T),n,m)}}
+return new A.Ba(new A.IY(p,B.es,!0,!0,B.j1,B.fI,B.fK,B.K9,B.fJ,m,B.fE,B.ed,m,3,0,-45,B.bE,!1,!1,B.cF,B.hz,B.fj,B.nu,m,m,m,m,m,1,0,!0,B.fH,m,m,!0,B.og,m,m,m,m,B.fz,m,0,B.d9,B.fL,m,m,m),new A.Lh("{value} kg",o,l-1,s+1,!0,!0,B.AJ,B.fI,B.fK,B.Ka,B.fJ,m,B.fE,B.ed,m,3,0,0,B.bE,!1,!1,B.cF,B.hz,B.fj,B.jK,0.5,m,m,m,m,1,0,!0,B.fH,m,m,!0,B.og,m,m,m,m,B.fz,m,0,B.d9,B.fL,m,m,m),new A.afH(!0),new A.OP(!0,!0,!0,B.fo,B.T),n,m)}}
 A.agj.prototype={
 $2(a,b){return a.a.bJ(0,b.a)},
 $S:214}
@@ -96448,7 +96446,7 @@ B.UB=new A.ec("Save",null,null,null,null,null,null,null,null,null)
 B.UD=new A.ec("Cancel",null,null,null,null,null,null,null,null,null)
 B.UG=new A.ec("Edit Weight",null,null,B.br,null,null,null,null,null,null)
 B.S4=new A.m(!0,null,null,null,null,null,null,B.bZ,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.UJ=new A.ec("FREAK",null,B.S4,null,null,null,null,null,null,null)
+B.UJ=new A.ec("FITNESS FREAK",null,B.S4,null,null,null,null,null,null,null)
 B.UK=new A.ec("Select Date",null,null,null,null,null,null,null,null,null)
 B.XX=new A.afE(0,"system")
 B.Lo=new A.e(0.056,0.024)
